@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Arrays</h1>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo"></p>
+<p id="demo1"></p>
+
+
+<script>
+const cars = ["SUV", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars[0];
+
+const fruits= [];
+fruits[0]= "Apple";
+fruits[1]= "Mango";
+fruits[2]= "Grapes";
+document.getElementById("demo1").innerHTML = fruits;
+
+//Using the JavaScript Keyword new
+const food = new Array("starters", "desserts", "Milkshake");
+document.getElementById("demo2").innerHTML = food;
+
+//Accessing Array Elements
+document.getElementById("demo").innerHTML = cars[0];
+
+//Changing an Array Element
+fruits[0]="Orange";
+document.getElementById("demo1").innerHTML = fruits;
+
+</script>
+
+</body>
+</html>

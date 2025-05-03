@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>datatypes</title>
+</head>
+<body>
+    <h1>Data Types</h1>
+<script>
+// Numbers:
+let length = 16;
+let weight = 7.5;
+
+// Strings:
+let color = "Yellow";
+let lastName = "Johnson";
+
+// Booleans:
+let x = true;
+let y = false;
+
+// Object:
+const person = { firstName: "John", lastName: "Doe" };
+
+// Array object:
+const cars = ["Saab", "Volvo", "BMW"];
+
+// Date object:
+const date = new Date("2022-03-25");
+
+// Directly using typeof
+console.log("length:", typeof length);       // number
+console.log("weight:", typeof weight);       // number
+
+console.log("color:", typeof color);         // string
+console.log("lastName:", typeof lastName);   // string
+
+console.log("x:", typeof x);                 // boolean
+console.log("y:", typeof y);                 // boolean
+
+console.log("person:", typeof person);       // object
+
+console.log("cars:", typeof cars);           // object (yes, typeof returns 'object' for arrays)
+
+console.log("date:", typeof date);           // object (typeof returns 'object' for Date too)
+</script>
+</body>
+</html>

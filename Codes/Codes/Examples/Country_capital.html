@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Capitals of Countries</title>
+        <style>
+            p{
+                color:red;
+                font-weight:bold;
+                font-size:50;
+            }
+            img {
+                width: 200px;
+                height: 150px;
+                margin-top: 50px;
+                display: block;
+            }
+            
+        </style>
+        <script language="javascript">
+            function capital()
+            {
+                var cunt=document.forms["frm1"].country.value;
+                var capital="please select any country";
+                var imgSrc = "";
+                if(cunt=='india')
+            {
+                capital="NEW DELHI";
+                imgSrc = "https://www.bigbasket.com/media/uploads/p/l/40268817_2-indian-national-flag-khadi-material-durable.jpg";
+                
+            }
+                if(cunt=='china')
+            {
+                capital="BEIJING";
+                imgSrc = "https://img.freepik.com/premium-photo/flag-china-background-banner-templates-design-3d-illustration_41050-4451.jpg?semt=ais_hybrid";
+            }
+                if(cunt=='pakisthan')
+            {
+                capital="ISLAMABAD";
+                
+            }
+                if(cunt=='bangladesh')
+            {
+                capital="DHAKA";
+            }
+                if(cunt=='japan')
+            {
+                capital="TOKYO";
+            }
+                if(cunt=='select')
+            {
+                capital="Please select any country";
+            }
+            document.getElementById("capt").innerHTML=capital;
+            document.getElementById("capitalImage").src = imgSrc;
+            document.getElementById("capitalImage").style.display = imgSrc ? "block" : "none";
+            
+           
+            }
+            
+        </script>
+    </head>
+    <body>
+        <form name="frm1">
+            <br/>
+            <center>
+                Select a country:<select name="country" onchange="capital()">
+                <option value="select">--SELECT--</option>
+                <option value="india">INDIA</option>
+                <option value="china">CHINA</option>
+                <option value="pakisthan">PAKISTHAN</option>
+                <option value="bangladesh">BANGLADESH</option>
+                <option value="japan">JAPAN</option>
+            </select>
+            <br/>
+            <font color="green" size="10">Capital is:</font>
+            <p id="capt"></p>
+            <img id="capitalImage" style="display:none;" />
+            </center>
+        </form>
+    </body>
+</html>

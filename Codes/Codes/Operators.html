@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple JavaScript Operators</title>
+</head>
+<body>
+
+<h2>Simple JavaScript Operators</h2>
+
+<button onclick="runExample()">Run Example</button>
+
+<p id="result"></p>
+
+<script>
+function runExample() {
+  let result = "";
+
+  // Arithmetic
+  result += "2 + 3 = " + (2 + 3) + "<br>";
+  result += "5 - 1 = " + (5 - 1) + "<br>";
+  result += "4 * 2 = " + (4 * 2) + "<br>";
+  result += "8 / 2 = " + (8 / 2) + "<br><br>";
+
+  // Assignment
+  let x = 5;
+  result += "x = " + x + "<br>";
+  x += 2;
+  result += "x += 2 → " + x + "<br><br>";
+
+  // Comparison
+  result += "5 == '5' → " + (5 == '5') + "<br>";
+  result += "5 != '5' → " + (5 != '5') + "<br><br>";
+
+  // Logical
+  result += "true && false → " + (true && false) + "<br>";
+  result += "true || false → " + (true || false) + "<br>";
+
+  document.getElementById("result").innerHTML = result;
+}
+</script>
+
+</body>
+</html>
+

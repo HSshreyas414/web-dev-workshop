@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Global Scope</h1>
+<p>Access a global variable defined outside a function:</p>
+
+<p id="demo"></p>
+
+<script>
+let a = 4;
+document.getElementById("demo").innerHTML = myFunction();
+
+function myFunction() {
+   return a * a;
+} 
+</script>
+
+</body>
+</html>

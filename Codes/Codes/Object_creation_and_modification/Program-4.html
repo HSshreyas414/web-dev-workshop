@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Object</h2>
+	<script>
+		var my_car1 = new Object();		// Create an Object object
+		my_car1.make = "Ford";			// Create and initialize the make property
+		my_car1.model = "Fusion";		// Create and initialize model
+		document.write ("Using forin Loop Statement" + "<br />") ;
+		for (var prop in my_car1)
+			document.write("Name: ", prop, "; Value: ", my_car1[prop], "<br />");
+	</script>
+</body>
+</html>
