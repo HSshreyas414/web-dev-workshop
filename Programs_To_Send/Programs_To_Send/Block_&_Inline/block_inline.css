@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    color: #333;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+section {
+    margin-bottom: 3rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.block-example .box,
+.block-example p,
+.block-example h3 {
+    background-color: #DFF0D8;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #A6D785;
+}
+
+.inline-example .highlight {
+    background-color: #FCE4EC;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid #F48FB1;
+    margin-right: 0.3rem;
+}

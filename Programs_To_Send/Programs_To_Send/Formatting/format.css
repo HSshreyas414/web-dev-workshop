@@ -1,0 +1,41 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #fff8f0;
+    color: #333;
+    padding: 2rem;
+}
+
+h1 {
+    color: #2e8b57;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+b {
+    color: #d35400;
+}
+
+strong {
+    color: #c0392b;
+    font-weight: bold;
+}
+
+i {
+    color: #2980b9;
+}
+
+em {
+    color: #8e44ad;
+    font-style: italic;
+}
+
+code {
+    background-color: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.95rem;
+}

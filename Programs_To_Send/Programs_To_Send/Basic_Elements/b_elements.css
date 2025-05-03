@@ -1,0 +1,23 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    padding: 2rem;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+    margin-top: 1.5rem;
+}
+
+p {
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+hr {
+    border: none;
+    border-top: 2px dashed #aaa;
+    margin: 2rem 0;
+}
